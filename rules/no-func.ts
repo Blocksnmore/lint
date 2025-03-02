@@ -1,3 +1,7 @@
+/**
+ * Disallows creating functions via `Function`.
+ * @module
+ */
 export default {
 	name: "studios-lint",
 	rules: {
@@ -7,7 +11,8 @@ export default {
 					FunctionDeclaration(node) {
 						context.report({
 							node,
-							message: "Creating functions via `Function` is not allowed, use arrow functions instead.",
+							message: "Creating functions via `Function` is not allowed",
+							hint: "Use arrow functions instead",
 						});
 					}
 				};
