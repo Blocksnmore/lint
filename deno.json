@@ -1,0 +1,9 @@
+{
+	"name": "@studios/lint",
+	"version": "0.1.0",
+	"license": "MIT",
+	"exports": {
+		".": "./rules/all.ts",
+		"./no-func": "./rules/no-func.ts"
+	}
+}
