@@ -1,6 +1,6 @@
 {
 	"name": "@studios/lint",
-	"version": "0.1.0-docs",
+	"version": "0.1.1",
 	"license": "MIT",
 	"exports": {
 		".": "./rules/all.ts",
